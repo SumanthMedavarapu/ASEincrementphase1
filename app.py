@@ -11,9 +11,16 @@ trainer.train("chatterbot.corpus.english")
  
 @app.route("/")
 def home():
-    return render_template("index.html")
+    return render_template("index1.html")
 
-print("hai")
+@app.route("/login.html")
+def login():
+	return render_template("login.html")
+
+@app.route("/signup.html")
+def signup():
+	return render_template("signup.html")
+
  
 @app.route("/get")
 def getBotResponse():
