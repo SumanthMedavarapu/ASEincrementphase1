@@ -1,0 +1,9 @@
+#HeaderSection .navbar
+{
+    background: black;
+    border-bottom: #FFF 03px solid;
+
+}
+#HeaderSection .navbar a
+{color : #FFF;
+}
